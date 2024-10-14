@@ -9,15 +9,21 @@ Supports Detection of Six Brain Diseases:
 - Traumatic Brain Injury (TBI)
 - Multiple Sclerosis
 - Epilepsy
+
+---
   
 Deep Learning Model Architecture:
 - Utilizes CNN layers to extract features from MRI images.
 - Regularization through dropout layers to prevent overfitting.
 - Softmax activation function for multi-class classification.
 
-  Data Augmentation:
-  - Random rotations, zooming, shifts, and flips to improve model generalization.
+---
+
+Data Augmentation:
+- Random rotations, zooming, shifts, and flips to improve model generalization.
  
+---
+
 Early Stopping & Model Checkpoints:
 - Automatically halts training when validation loss stops improving.
 - Saves the best model based on validation performance.
