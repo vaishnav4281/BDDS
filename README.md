@@ -84,4 +84,4 @@ Summary of Model Layers:
 Feel free to submit issues or pull requests if you'd like to contribute to this project.
 
 ## Contact: 
-For any questions or collaboration opportunities, please contact me via my GitHub profile: (Arpit Ramesan)[mailto:arpitramesan777@gmail.com].
+For any questions or collaboration opportunities, please contact me via my GitHub profile: [Arpit Ramesan](mailto:arpitramesan777@gmail.com).
