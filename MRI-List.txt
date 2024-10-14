@@ -1,0 +1,18 @@
+- Brain Tumor = TCIA - Done
+- Acute Ischemic Stroke = HCP, ATLAS - Done
+- Multiple Sclerosis - Done
+- Alzheimers = ADNI, OASIS - Done
+- Hydrocephalus - Not Done
+- Epilepsy - Done
+- Traumatic Brain Injury(TBI) - Done
+- Aneurysms & Vascular Malformations
+- Infections(Meningitis, Encephalitis)
+- Parkinson's Disease
+- Cerebral Atrophy
+- Chiari Malformations
+- Brain Abscesses
+- Huntingtons Disease
+- Vascular Dementia
+
+IXI - general mri dataset
+UK Biobank - Various brain conditions
