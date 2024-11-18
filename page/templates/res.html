@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptoms Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Symptom Analysis</h1>
+    </header>
+    <main>
+        <section>
+            <p><b>{{ result }}</b></p>
+            <a href="/booking"><button>Book a Consultation</button></a>
+        </section>
+    </main>
+</body>
+</html>

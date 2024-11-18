@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Results</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e6f7ff, #ffffff);
+            color: #333333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            color: #004080;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            background: #ffffff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #004080;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        section button {
+            width: 100%;
+            padding: 12px;
+            background-color: #004080;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        section button:hover {
+            background-color: #003060;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            section {
+                padding: 15px 20px;
+            }
+
+            section button {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scan Analysis</h1>
+    </header>
+    <main>
+        <section>
+            <p><b>{{ scan_result }}</b></p>
+            <a href="{{ url_for('clear_session') }}">
+                <button>Back to Home</button>
+            </a>
+        </section>
+    </main>
+</body>
+</html>
