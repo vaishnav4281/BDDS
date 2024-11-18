@@ -80,6 +80,8 @@ Summary of Model Layers:
 - Dropout: Adds regularization to prevent overfitting.
 - Softmax: Outputs probabilities for each class.
 
+**Model File:** [Link]()
+
 ## Contributing:
 Feel free to submit issues or pull requests if you'd like to contribute to this project.
 
